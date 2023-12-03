@@ -1,0 +1,336 @@
+.gradient-background {
+  background: linear-gradient(
+    300deg,
+    #000000,
+    #000000,
+    #520000,
+    #962f40,
+    #f44761,
+    #000000,
+    #000000,
+    #000000
+  );
+  background-size: 180% 180%;
+  animation: gradient-animation 19s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.h1-title {
+  font-size: 5.6rem;
+  font-family: "Orbitron", sans-serif;
+  color: #000000 !important;
+  margin-bottom: 0px !important;
+  display: block;
+}
+
+.h1-title h1 {
+  margin-bottom: 0;
+}
+
+body {
+  margin: 0;
+  background-color: #212529;
+  color: #ffffff;
+}
+
+.top-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 1fr 1fr;
+  padding-left: 10rem;
+  height: 100vh;
+}
+
+.programmer {
+  font-size: 2.5rem;
+  font-family: "Courier Prime", monospace;
+  color: #ffffff !important;
+  margin-top: 0;
+}
+
+.programmer h2 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+.jelly-image {
+  grid-area: 1 / 2 / 3 / 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.second-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hello h2 {
+  font-family: "Orbitron", sans-serif;
+  margin-top: 30px;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.about-me p {
+  font-family: "Courier Prime", monospace;
+  text-align: center;
+  color: #dee2e6bf;
+}
+
+.profile-image img {
+  height: 200px;
+  margin-top: 100px;
+  border-radius: 50%;
+}
+
+hr {
+  border: dotted #eaf6f6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+.skills h2 {
+  font-family: "Orbitron", sans-serif;
+  margin-top: 30px;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.parent {
+  display: grid;
+  grid-template-columns: 0.5fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  margin: 100px auto 0 auto;
+  width: 50%;
+}
+
+.monkey-img img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 15px;
+  margin-top: 30px;
+}
+
+.sports h3 {
+  font-family: "Orbitron", sans-serif;
+  text-align: center;
+  margin-top: 0;
+}
+
+.sports p {
+  font-family: "Courier Prime", monospace;
+  color: #dee2e6bf;
+  margin-top: 50px;
+}
+
+.design-development {
+  padding-top: 0;
+}
+
+.design-development h3 {
+  font-family: "Orbitron", sans-serif;
+  text-align: center;
+  margin-top: 0;
+}
+
+.design-development p {
+  font-family: "Courier Prime", monospace;
+  color: #dee2e6bf;
+}
+
+.basketball-image img {
+  height: 245px;
+  margin-left: 50px;
+}
+
+a {
+  color: white;
+  margin: 10px 20px;
+  font-family: "Courier Prime", monospace;
+}
+
+.copyright {
+  color: #dee2e6bf;
+  font-size: 0.75rem;
+  padding: 20px 0;
+  font-family: "Orbitron", sans-serif;
+}
+
+.footer-link {
+  text-align: center;
+}
+
+.bottom-container {
+  text-align: center;
+  padding: 50px 0 20px;
+}
+
+@media (max-width: 600px) {
+  .top-container {
+    display: flex;
+    flex-direction: column;
+    padding-left: 2rem;
+  }
+
+  .top-container h1 {
+    margin: 0;
+  }
+
+  .jelly-image {
+    order: -1;
+    display: block;
+  }
+
+  .parent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .design-development h3 {
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .design-development p {
+    text-align: center;
+  }
+
+  .sports h3 {
+    text-align: center;
+  }
+
+  .basketball-image img {
+    margin-left: 20px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .top-container {
+    display: flex;
+    flex-direction: column;
+    padding-left: 2rem;
+  }
+
+  .top-container h1 {
+    margin: 0;
+  }
+
+  .jelly-image {
+    order: -1;
+    display: block;
+  }
+
+  .parent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .design-development h3 {
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .design-development p {
+    text-align: center;
+  }
+
+  .h1-title h1 {
+    font-size: 4.7rem;
+  }
+
+  .programmer h2 {
+    font-size: 2;
+  }
+
+  .sports h3 {
+    text-align: center;
+  }
+
+  .basketball-image img {
+    margin-left: 20px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1280px) {
+  .top-container {
+    display: flex;
+    flex-direction: column;
+    padding-left: 2rem;
+  }
+
+  .top-container h1 {
+    margin: 0;
+  }
+
+  .jelly-image {
+    order: -1;
+    display: block;
+  }
+
+  .h1-title h1 {
+    font-size: 7rem;
+  }
+
+  .programmer h2 {
+    font-size: 2.2;
+  }
+
+  .parent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .design-development h3 {
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .design-development p {
+    text-align: center;
+  }
+
+  .sports h3 {
+    text-align: center;
+  }
+
+  .basketball-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .basketball-image img {
+    margin-left: 20px;
+  }
+}
