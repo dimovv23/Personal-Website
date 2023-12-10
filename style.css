@@ -198,12 +198,17 @@ a {
 
   .top-container h1 {
     margin: 0;
-    font-size: 1.5rem !important;
+    font-size: 5rem !important;
   }
 
   .jelly-image {
     order: -1;
     display: block;
+  }
+
+  .jelly-image img {
+    height: 350px;
+    width: 350px;
   }
 
   .parent {
