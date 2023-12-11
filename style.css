@@ -119,6 +119,10 @@ hr {
   text-align: center;
 }
 
+.myWork h2 {
+  margin-bottom: 40px;
+}
+
 .parent {
   display: grid;
   grid-template-columns: 0.5fr 1fr;
@@ -167,10 +171,48 @@ hr {
   margin-left: 50px;
 }
 
+.forth-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.crypto p {
+  margin-top: 0;
+}
+
+.crypto h3 {
+  margin-bottom: 5px;
+}
+
+.crypto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(44, 53, 57);
+  border-radius: 20px;
+  padding: 3px 10px;
+  text-align: center;
+}
+
 a {
   color: white;
   margin: 10px 20px;
   font-family: "Courier Prime", monospace;
+}
+
+.appButton {
+  font-family: "Orbitron", sans-serif !important;
+  transition: transform 0.2s;
+  color: white;
+}
+
+.appButton:hover {
+  transform: scale(
+    1.08
+  ); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 
 .copyright {
@@ -246,6 +288,17 @@ a {
   .basketball-image img {
     margin-left: 20px;
   }
+
+  .forth-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .crypto {
+    margin: 10px;
+  }
 }
 
 @media (min-width: 481px) and (max-width: 767px) {
@@ -298,6 +351,17 @@ a {
 
   .basketball-image img {
     margin-left: 20px;
+  }
+
+  .forth-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .crypto {
+    margin: 10px;
   }
 }
 
@@ -358,5 +422,16 @@ a {
 
   .basketball-image img {
     margin-left: 20px;
+  }
+
+  .forth-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .crypto {
+    margin: 10px;
   }
 }
