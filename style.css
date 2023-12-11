@@ -193,7 +193,7 @@ a {
   .top-container {
     display: flex;
     flex-direction: column;
-    padding-left: 2rem;
+    padding-left: 5px;
   }
 
   .top-container h1 {
@@ -218,6 +218,10 @@ a {
     align-items: center;
   }
 
+  .design-development {
+    width: 300px;
+  }
+
   .design-development h3 {
     text-align: center;
     margin-top: 10px;
@@ -228,6 +232,14 @@ a {
   }
 
   .sports h3 {
+    text-align: center;
+  }
+
+  .sports {
+    width: 300px;
+  }
+
+  .sports p {
     text-align: center;
   }
 
@@ -280,6 +292,10 @@ a {
     text-align: center;
   }
 
+  .sports p {
+    text-align: center;
+  }
+
   .basketball-image img {
     margin-left: 20px;
   }
@@ -326,6 +342,10 @@ a {
   }
 
   .sports h3 {
+    text-align: center;
+  }
+
+  .sports p {
     text-align: center;
   }
 
