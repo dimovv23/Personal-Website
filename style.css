@@ -131,6 +131,13 @@ hr {
   width: 50%;
 }
 
+.parent2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-row: 1fr 1fr;
+  gap: 10px 20px;
+}
+
 .monkey-img img {
   display: flex;
   justify-content: center;
@@ -296,6 +303,13 @@ a {
     align-items: center;
   }
 
+  .parent2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
   .crypto {
     margin: 10px;
   }
@@ -354,6 +368,13 @@ a {
   }
 
   .forth-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .parent2 {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -425,6 +446,13 @@ a {
   }
 
   .forth-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .parent2 {
     display: flex;
     flex-direction: column;
     justify-content: center;
